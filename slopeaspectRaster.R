@@ -10,7 +10,6 @@
 rm(list=(ls()[ls()!="v"]))
 gc(reset=TRUE)
 library(raster)
-library(ggnewscale)
 
 bathymetry <- raster("Data/BathymetryDepthMean.tif")
 
